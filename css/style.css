@@ -1,0 +1,230 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+@font-face {
+	font-family: 'ChenYuluoyan-Thin-Monospaced';
+	src: url(ChenYuluoyan-Thin-Monospaced.woff) format('woff');
+}
+.wrap {
+	margin: 0 auto;
+	background-color: #fffcf5;
+	width: 1920px;
+}
+.header {
+
+}
+.content {
+	padding-left: 312px;
+	padding-right: 312px;
+	padding-top: 24px;
+	padding-bottom: 80px;
+}
+.noto-sans-tc-content {
+	font-family: "Noto Sans TC", sans-serif;
+	font-style: normal;
+  }
+.content1 {
+	padding-top: 32px;
+	padding-bottom: 32px;
+	margin-bottom: 40px;
+}
+.content1 h1 {
+	text-align: center;
+	font-family: "ChenYuluoyan-Thin-Monospaced" , sans-serif;
+	font-size: 48px;
+	font-weight: 100;
+	line-height: 58px;
+	letter-spacing: 0.02em;
+	margin-bottom: 40px; 
+}
+.content1-introduce {
+	width: 1296px;
+	height: 526px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-bottom: 24px;
+}
+.content1-introduceText {
+	padding-right: 24px;
+	padding-left: 24px;
+	text-align: center;
+}
+.content1-introduceText:before {
+	width: 746px;
+	height: 526px;
+	height: 100%;
+	display: inline-block;
+	vertical-align: middle;
+}
+.content1-introduceText h2 {
+	font-size: 40px;
+	font-weight: 700;
+	line-height: 48px;
+	letter-spacing: 0.02em;
+	display: inline-block;
+	vertical-align: middle;
+	margin-bottom: 60px;
+}
+.content1-introduceText h3 ,h4 {
+	font-size: 24px;
+	font-weight: 400;
+	line-height: 36px;
+	letter-spacing: 0.02em;
+	display: inline-block;
+	vertical-align: middle;
+}
+.content1-introduce img {
+	width: 526px;
+	height: 526px;
+	object-fit: cover;
+}
+.content2 {
+	padding-top: 32px;
+	padding-bottom: 32px;
+	margin-bottom: 80px;
+}
+.content2Top {
+	display: flex;
+	margin-bottom: 60px;
+}
+.mission1 {
+	width: 392px;
+	padding-right: 24px;
+	padding-left: 24px;
+	margin-right: 60px;
+}
+.mission2 {
+	width: 392px;
+	padding-right: 24px;
+	padding-left: 24px;
+	margin-right: 60px;
+}
+.mission3 {
+	width: 392px;
+	padding-right: 24px;
+	padding-left: 24px;
+}
+.missionTitleFont{
+	font-size: 28px;
+	font-weight: 700;
+	line-height: 33.6px;
+	letter-spacing: 0.02em;
+	text-align: center;
+	margin-bottom: 32px;
+}
+.missionContentFont1{
+	width: 344px;
+	font-size: 24px;
+	font-weight: 400;
+	line-height: 36px;
+	letter-spacing: 0.02em;
+	text-align: center;
+}
+.missionContentFont2{
+	font-size: 28px;
+	font-weight: 700;
+	line-height: 33.6px;
+	letter-spacing: 0.02em;
+	text-align: center;
+	color: #684126;
+}
+.content3 h1 {
+	font-size: 32px;
+	font-weight: 700;
+	line-height: 38.4px;
+	letter-spacing: 0.02em;
+	text-align: justify;
+}
+.awardsIntroduce {
+	display: flex;
+	width: 1296px;
+	padding-top: 8px;
+	padding-bottom: 8px;
+	margin-bottom: 24px;
+}
+.awardsIntroduce img {
+	width: 200px;
+	height: 200px;
+	object-fit: scale-down;
+	margin-right: 24px;
+}
+.awardsText {
+	align-content: center;
+}
+.awardsText p {
+	font-size: 24px;
+	font-weight: 700;
+	line-height: 28.8px;
+	letter-spacing: 0.02em;
+	margin-bottom: 24px;
+}
+.awardsTextArea {
+	display: flex;
+}
+.awardsTextArea a {
+	display: block;
+	color: #5C727E;
+	width: 98px;
+	font-size: 24px;
+	font-weight: 700;
+	line-height: 28.8px;
+	letter-spacing: 0.02em;
+	text-decoration: none;
+	margin-right: 8px;
+}
+.awardsTextArea img {
+	display: block;
+	width: 24px;
+	height: 24px;
+	margin-top: 2.5px;
+	margin-bottom: 2.5px;
+}
+.footer {
+	
+}
